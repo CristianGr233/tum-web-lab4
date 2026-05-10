@@ -23,6 +23,12 @@
       "brand": "Millenium",
       "price": "€ 309",
       "image": "images/focus_22.webp"
+    },
+    {
+      "title": "New Guitar",
+      "brand": "Recent",
+      "price": "100",
+      "image": "/images/f_62.jpg"
     }
   ],
   "top": [
@@ -49,6 +55,12 @@
       "brand": "Millenium",
       "price": "€ 425",
       "image": "images/focus22_bundle.webp"
+    },
+    {
+      "title": "New Guitar",
+      "brand": "Top",
+      "price": "200",
+      "image": "/images/f_63.jpg"
     }
   ],
   "specials": [
@@ -75,6 +87,12 @@
       "brand": "Yamaha",
       "price": "€ 822",
       "image": "images/ydp-145.webp"
+    },
+    {
+      "title": "New Guitar",
+      "brand": "Special",
+      "price": "300",
+      "image": "/images/g_lp.jpg"
     }
   ],
   "limited": [
@@ -101,6 +119,12 @@
       "brand": "Millenium",
       "price": "€ 177",
       "image": "images/focus_junior.webp"
+    },
+    {
+      "title": "New Guitar",
+      "brand": "Limited",
+      "price": "400",
+      "image": "/images/g_sg.jpg"
     }
   ]
 }
