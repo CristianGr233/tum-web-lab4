@@ -1,3 +1,109 @@
 {
-  "recent": []
+  "recent": [
+    {
+      "title": "Gibson SG Standard Reissue Cherry VOS",
+      "brand": "Gibson",
+      "price": "€ 3,822",
+      "image": "images/g_sg.jpg"
+    },
+    {
+      "title": "Marcus Miller V7 Alder-4 AWH 2nd Gen",
+      "brand": "Marcus Miller",
+      "price": "€ 477",
+      "image": "images/alder-4.webp"
+    },
+    {
+      "title": "Thomann DP-95 B",
+      "brand": "Thomann",
+      "price": "€ 545",
+      "image": "images/dp_95.webp"
+    },
+    {
+      "title": "Millenium Focus 22 Drum Set Black",
+      "brand": "Millenium",
+      "price": "€ 309",
+      "image": "images/focus_22.webp"
+    }
+  ],
+
+  "top": [
+    {
+      "title": "Fender Player II Jazz Bass MN CRR",
+      "brand": "Fender",
+      "price": "€ 795",
+      "image": "images/player-2.webp"
+    },
+    {
+      "title": "Yamaha YDP-165 B Arius",
+      "brand": "Yamaha",
+      "price": "€ 1,090",
+      "image": "images/ydp-165.webp"
+    },
+    {
+      "title": "Gibson Les Paul Supreme Trans Ebony B",
+      "brand": "Gibson",
+      "price": "€ 3,649",
+      "image": "images/g_lp.jpg"
+    },
+    {
+      "title": "Millenium Focus 22 Drum Bundle Black",
+      "brand": "Millenium",
+      "price": "€ 425",
+      "image": "images/focus22_bundle.webp"
+    }
+  ],
+
+  "specials": [
+    {
+      "title": "Harley Benton JB-75MN SB Vintage Series",
+      "brand": "Harley Benton",
+      "price": "€ 177",
+      "image": "images/JB-75MN.webp"
+    },
+    {
+      "title": "Fender Custom 62 Strat CC AB",
+      "brand": "Fender",
+      "price": "€ 6,299",
+      "image": "images/f_62.jpg"
+    },
+    {
+      "title": "Millenium Youngster Drum Set Azure",
+      "brand": "Millenium",
+      "price": "€ 111",
+      "image": "images/youngster.webp"
+    },
+    {
+      "title": "Yamaha YDP-145 B Arius",
+      "brand": "Yamaha",
+      "price": "€ 822",
+      "image": "images/ydp-145.webp"
+    }
+  ],
+
+  "limited": [
+    {
+      "title": "Marcus Miller V8-4 NT",
+      "brand": "Marcus Miller",
+      "price": "€ 655",
+      "image": "images/V8-4_NT.webp"
+    },
+    {
+      "title": "Fender 63 Strat BLK Relic",
+      "brand": "Fender",
+      "price": "€ 5,444",
+      "image": "images/f_63.jpg"
+    },
+    {
+      "title": "Yamaha P-525 B Set",
+      "brand": "Yamaha",
+      "price": "€ 1,777",
+      "image": "images/p-525.webp"
+    },
+    {
+      "title": "Millenium Focus Junior Drum Set Black",
+      "brand": "Millenium",
+      "price": "€ 177",
+      "image": "images/focus_junior.webp"
+    }
+  ]
 }
