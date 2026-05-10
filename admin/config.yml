@@ -1,0 +1,51 @@
+backend:
+  name: github
+  repo: cristiangr233/tum-web-lab4
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "products"
+    label: "Products"
+    files:
+      - file: "_data/products.json"
+        label: "Product Data"
+        name: "products"
+        fields:
+          - label: "Recent"
+            name: "recent"
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Brand, name: brand, widget: string }
+              - { label: Price, name: price, widget: string }
+              - { label: Image, name: image, widget: image }
+
+          - label: "Top"
+            name: "top"
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Brand, name: brand, widget: string }
+              - { label: Price, name: price, widget: string }
+              - { label: Image, name: image, widget: image }
+
+          - label: "Specials"
+            name: "specials"
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Brand, name: brand, widget: string }
+              - { label: Price, name: price, widget: string }
+              - { label: Image, name: image, widget: image }
+
+          - label: "Limited"
+            name: "limited"
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Brand, name: brand, widget: string }
+              - { label: Price, name: price, widget: string }
+              - { label: Image, name: image, widget: image }
