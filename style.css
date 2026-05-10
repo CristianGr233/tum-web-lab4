@@ -1,0 +1,340 @@
+body {
+  overflow-x: hidden;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f2c2c;
+  padding: 0.5rem 2rem;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.logo a:hover {
+  color: lightblue;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+/* ================= SECTIONS ================= */
+
+.sections {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.sections h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.sections a {
+  color: white;
+  text-decoration: none;
+}
+
+.sections h2:hover {
+  background-color: red;
+  transition: 0.3s;
+}
+
+/* ================= SEARCH ================= */
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search_bar {
+  height: 36px;
+  width: 200px;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  height: 36px;
+  padding: 0 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+/* ================= MOBILE BANNER ================= */
+
+.mobile-banner {
+  display: none;
+  text-align: center;
+  background-color: crimson;
+  color: white;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* ================= SLIDER ================= */
+
+.carousel {
+  max-width: 1080px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 0.25);
+}
+
+.carousel-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* ================= CTA ================= */
+
+.container {
+  padding: 2rem;
+}
+
+.cta_button {
+  display: flex;
+  justify-content: center;
+}
+
+.cta_button button {
+  margin-top: 20px;
+  background-color: #C62828;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 36px;
+  padding: 1rem 2rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.cta_button button:hover {
+  transform: scale(1.05);
+}
+
+/* ================= PRODUCTS ================= */
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.headings h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.product:hover {
+  border: 2px solid black;
+  transform: translateY(-8px);
+}
+
+.product img {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  display: block;
+}
+
+.product p {
+  margin: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.product button {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #457b9d;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+b {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* ================= MASCOT ================= */
+
+.mascot {
+  position: fixed;
+  bottom: 20px;
+  right: -200px;
+  animation: mascot-enter 2s forwards 2s, mascot-float 2s infinite ease-in-out;
+  z-index: 999;
+}
+
+.mascot img {
+  width: 120px;
+  cursor: pointer;
+}
+
+.mascot-message {
+  position: absolute;
+  bottom: 130px;
+  right: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  opacity: 0;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.mascot:hover .mascot-message {
+  opacity: 1;
+}
+
+@keyframes mascot-enter {
+  from { right: -200px; }
+  to   { right: 20px; }
+}
+
+@keyframes mascot-float {
+  0%   { transform: translateY(0px) rotate(0deg); }
+  50%  { transform: translateY(-10px) rotate(5deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+/* ================= MOBILE ================= */
+
+@media screen and (max-width: 768px) {
+
+  body {
+    overflow-x: unset;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .logo a {
+    font-size: 2rem;
+  }
+
+  .sections {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .sections h2 {
+    font-size: 1.2rem;
+  }
+
+  .search-box {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search_bar {
+    width: 70%;
+  }
+
+  .mobile-banner {
+    display: block;
+  }
+
+  .carousel-img {
+    height: 250px;
+  }
+
+  .products {
+    grid-template-columns: 1fr;
+  }
+
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cta_button button {
+    width: 85%;
+    font-size: 1.1rem;
+  }
+
+  .mascot img {
+    width: 80px;
+  }
+
+  .mascot-message {
+    width: 150px;
+    font-size: 0.8rem;
+  }
+
+}
