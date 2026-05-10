@@ -23,9 +23,14 @@
       "brand": "Millenium",
       "price": "€ 309",
       "image": "images/focus_22.webp"
+    },
+    {
+      "title": "random",
+      "brand": "random",
+      "price": "1",
+      "image": "/images/V8-4_NT.webp"
     }
   ],
-
   "top": [
     {
       "title": "Fender Player II Jazz Bass MN CRR",
@@ -52,7 +57,6 @@
       "image": "images/focus22_bundle.webp"
     }
   ],
-
   "specials": [
     {
       "title": "Harley Benton JB-75MN SB Vintage Series",
@@ -79,7 +83,6 @@
       "image": "images/ydp-145.webp"
     }
   ],
-
   "limited": [
     {
       "title": "Marcus Miller V8-4 NT",
