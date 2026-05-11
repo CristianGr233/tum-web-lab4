@@ -29,6 +29,12 @@
       "brand": "Recent",
       "price": "100",
       "image": "/images/f_62.jpg"
+    },
+    {
+      "title": "LP",
+      "brand": "Gibson",
+      "price": "100",
+      "image": "/images/f_63.jpg"
     }
   ],
   "top": [
